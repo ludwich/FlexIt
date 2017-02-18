@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2E4158;
+  color: white;
+}
+.headerIbiz{
+  box-sizing: border-box;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+.logo{
+  height: 200%;
+}
+.pageContainer{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+.columnContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 95vh;
+}
+.oneRow{
+  display: flex;
+  justify-content: space-between;
+  height: 8%;
+}
+.rowItem{
+  width: 16%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  flex-grow: 1;
+  margin: auto;
+
+}
+.employee{
+  box-sizing: border-box;
+  display: flex;
+  word-wrap: break-word;
+  font-size: 15px;
+  justify-content: center;
+  flex-direction: column-reverse;
+  border: 1px solid black;
+}
+.employeePicHolder{
+  border: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 11px;
+}
+.employeePic{
+  height: 50%;
+  flex-grow: 1;
+  border-radius: 100%;
+  box-sizing: border-box;
+  padding: 2px;
+}
+.sjuk{
+  background-color: #9A323C;
+}
+.ledig{
+  background-color: #174E2B;
+}
+.today{
+filter: brightness(100%);
+}
